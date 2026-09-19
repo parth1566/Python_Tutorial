@@ -1,9 +1,9 @@
-name = "Parth Sharma"
-grade = "A"
+P1 = int(input("Enter P1: "))
+P2 = int(input("Enter P2: "))
+P3 = int(input("Enter P3: "))
 
-print(name.upper())
-print(name.find("arm"))
+sum = P1 + P2 + P3
+average = sum/3
 
-print(name.replace("Parth", "Lakshay"))
-
-print("P" in name)
+print("sum", sum)
+print("average", average)
