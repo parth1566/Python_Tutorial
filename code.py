@@ -1,7 +1,9 @@
-fname = "Tony"
-lname = "Stark"
-age = 53
-height = 1.85
-input = "Iron Man"
+name = "Parth Sharma"
+grade = "A"
 
-print(fname + " " + lname + " " + "is an " + input)
+print(name.upper())
+print(name.find("arm"))
+
+print(name.replace("Parth", "Lakshay"))
+
+print("P" in name)
