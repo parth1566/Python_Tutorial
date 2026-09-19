@@ -1,10 +1,7 @@
-name = "Parth"
-age = 45
-cgpa = 7.8
-isPass = True
+fname = "Tony"
+lname = "Stark"
+age = 53
+height = 1.85
+input = "Iron Man"
 
-print(name, age)
-print(type(name))
-print(type(age))
-print(type(cgpa))
-print(type(isPass))
+print(fname + " " + lname + " " + "is an " + input)
