@@ -1,12 +1,19 @@
-# Function
+import random
 
-# def sum(a, b):
-#     print(a + b)
+def play_game():
+    lucky_num = random.randint(1, 50)
 
-# sum(4, 9)
+    while True:
+        user_num = int(input("Guess the lucky num: "))
+        if(user_num == lucky_num):
+            print("Congratulations! You guessed it right")
+            break
+        elif user_num < lucky_num:
+            print("Too low")
+        else :
+            print("Too High")
 
-def cal_gst(price):
-    new_price = price + price * 0.18
-    print(new_price)
 
-cal_gst(700)
+
+play_game()
+print("Thanks for playing")
