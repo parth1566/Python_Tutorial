@@ -1,10 +1,20 @@
-# conditional statements
+# Calculator
 
-age = 17
+a = float(input("Enter the 1st num: "))
+b = float(input("Enter the 2nd num: "))
+op = input("Enter operator(+, -, *, /, %, **): ")
 
-if age >= 18:
-    print("you can drive / vote")
-elif age < 18:
-    print("you can't vote or drive")
- 
-    print("end of code") 
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    print(a / b)
+elif op == '%':
+    print(a % b)
+elif op == '**':
+    print(a ** b)
+else: 
+    print("INVALID OPERATION")
