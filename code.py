@@ -1,20 +1,10 @@
-# arithmetic operators
-print(5 + 3)
-print(5 - 3)
-print(5 * 3)
-print(5 / 3)
-print(5 // 3)
-print(5 % 3)
-print(5 ** 3)
+# conditional statements
 
-# assignment operators
+age = 17
 
-x = 1
-x += 8
-print(x)
-print(9 > 0)
-
-# logical operators 
-print(4 > 8) or (8 < 3)
-print(5 < 8) and (8 > 3)
-print(not False)
+if age >= 18:
+    print("you can drive / vote")
+elif age < 18:
+    print("you can't vote or drive")
+ 
+    print("end of code") 
