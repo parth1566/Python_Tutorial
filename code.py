@@ -1,9 +1,20 @@
-P1 = int(input("Enter P1: "))
-P2 = int(input("Enter P2: "))
-P3 = int(input("Enter P3: "))
+# arithmetic operators
+print(5 + 3)
+print(5 - 3)
+print(5 * 3)
+print(5 / 3)
+print(5 // 3)
+print(5 % 3)
+print(5 ** 3)
 
-sum = P1 + P2 + P3
-average = sum/3
+# assignment operators
 
-print("sum", sum)
-print("average", average)
+x = 1
+x += 8
+print(x)
+print(9 > 0)
+
+# logical operators 
+print(4 > 8) or (8 < 3)
+print(5 < 8) and (8 > 3)
+print(not False)
