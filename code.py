@@ -1,21 +1,12 @@
-for i in range(1, 21):
-    if(i % 2 != 0):
-        print(i)
+# Function
 
-for i in range(1, 571):
-    if(i % 57 == 0):
-        print(i)
+# def sum(a, b):
+#     print(a + b)
 
-for i in range(1, 51):
-    if(i == 15):
-        continue
-    if(i % 3 == 0):
-        print(i)
+# sum(4, 9)
 
-a = int(input("Write 1st num: "))
-b = int(input("Write 2nd num: "))
+def cal_gst(price):
+    new_price = price + price * 0.18
+    print(new_price)
 
-for i in range(1, 1001):
-    if(i % a == 0 and i % b == 0):
-        print(i)
-        break
+cal_gst(700)
